@@ -5,7 +5,7 @@ class computadora:
         self.pantalla = pantalla
         self.cpu = cpu
         self.programas = programas
-        self. persona = persona
+        self.persona = persona
 
     def comandos(self, Epersona):
         return f"Escribir en el {Epersona.person}, luego hacer click con {self.mouse}"
@@ -16,4 +16,4 @@ mouse = computadora("click")
 cpu = computadora("prender, apagar")
 pantalla = computadora("imagenes")
 programas = computadora("ejecutar")
-Persona = computadora("aldhair")
+persona = computadora("aldhair")
