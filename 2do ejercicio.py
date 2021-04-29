@@ -22,6 +22,9 @@ class Saxo:
     def sol(self, Notasol):
         """Se escucha la nota musical SOL"""
         self. sol=Notasol
+    def la(self, Notala):
+        """Se escucha la nota musical LA"""
+        self. la=Notala
     def si(self, Notasi):
         """Se escucha la nota musical SI"""
         self. si=Notasi
@@ -32,3 +35,4 @@ class Saxo:
     fa = Saxo("nota musical")
     sol = Saxo("nota musical")
     la = Saxo("nota musical")
+    si = Saxo("nota musical")
